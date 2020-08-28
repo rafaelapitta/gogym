@@ -16,3 +16,11 @@ header {
     padding: 32px;
     text-align: center;
 }
+
+.links {
+    font-size: 22px;
+}
+
+.links a {
+    margin-left: 32px;
+}
