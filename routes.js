@@ -3,11 +3,11 @@ const routes = express.Router()
 
 //middlewares interceptam as requisiçòes
 routes.get('/', function(req, res) {
-    return res.redirect("instructors/index")
+    return res.redirect("instructors")
 })
 
-routes.get('/about', function(req, res) {
-    return res.render("about")
+routes.get('/instructors', function(req, res) {
+    return res.render("instructors/index")
 })
 
 routes.get('/members', function(req, res) {
